@@ -5,6 +5,7 @@ import Follow from "./pages/follow/Follow";
 import Games from "./pages/games/Games";
 import Support from "./pages/support/Support";
 import Chat from "./pages/chat/Chat";
+import Message from "./pages/chat/Message";
 import Calendar from "./pages/calendar/Calendar";
 import Profile from "./pages/profile/Profile";
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path:  "/mensagens",
         element: <Chat />
+      },
+      {
+        path: "/mensagens/anaprofessora",
+        element: <Message />
       },
       {
         path: "/calendario",
