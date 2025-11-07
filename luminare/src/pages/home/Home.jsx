@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import "@fontsource/poppins";
-import Lívia from "./livia.jpg";
+import User from "./photo.webp";
 import { Link } from "react-router";
 
 const Container = styled.section`
@@ -81,7 +81,7 @@ const ProfileWrapper = styled.div`
   justify-content: center;
   background: #fff;
   width: 120px;
-  height: auto;
+  height: 120px;
   border-radius: 50%;
 `;
 
@@ -163,11 +163,11 @@ export default function Home() {
           <MidGroup>
             <BorderWrapper>
               <ProfileWrapper>
-                <Profile src={Lívia} alt="Usuário" />
+                <Profile src={User} alt="Usuário" />
               </ProfileWrapper>
             </BorderWrapper>
 
-            <Username>Bem-vindo(a), Lívia!</Username>
+            <Username>Bem-vindo(a), Maria!</Username>
           </MidGroup>
 
           <LowerGroup>
