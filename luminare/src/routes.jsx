@@ -3,6 +3,7 @@ import Layout from "./layout/Layout";
 import Home from "./pages/home/Home";
 import Follow from "./pages/follow/Follow";
 import Games from "./pages/games/Games";
+import Support from "./pages/support/Support";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/gamificacao",
         element: <Games />
+      },
+      {
+        path: "/suporte",
+        element: <Support />
       }
     ]
   }
