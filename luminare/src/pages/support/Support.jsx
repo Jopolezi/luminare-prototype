@@ -97,7 +97,7 @@ const ContactCardText = styled.p`
   margin: 0;
 `;
 
-export const CardButton = styled.div`
+const CardButton = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -267,7 +267,7 @@ export default function Support() {
                 </Header>
                 <ContentAccordion>
                   Você consegue resgatar seus pontos através da presença em
-                  aulas e em atividades integrativas...
+                  aulas e em atividades integrativas
                 </ContentAccordion>
               </Item>
 
