@@ -227,7 +227,7 @@ export default function Follow() {
 
           <CardFrequency>
             <CardFrequencyTitle>
-              Estátisticas mensais
+              Estátisticas mensais atuais
             </CardFrequencyTitle>
             <CardGroup>
               <CardFrequencyText>Total de dias presentes:</CardFrequencyText>
@@ -235,7 +235,7 @@ export default function Follow() {
             </CardGroup>
 
             <CardGroup>
-              <CardFrequencyText>Frequência atual: </CardFrequencyText>
+              <CardFrequencyText>Frequência atual (mês): </CardFrequencyText>
               <ProgressBar
                 completed={Number(frequency())}
                 maxCompleted={100}

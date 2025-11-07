@@ -4,6 +4,9 @@ import Home from "./pages/home/Home";
 import Follow from "./pages/follow/Follow";
 import Games from "./pages/games/Games";
 import Support from "./pages/support/Support";
+import Chat from "./pages/chat/Chat";
+import Calendar from "./pages/calendar/Calendar";
+import Profile from "./pages/profile/Profile";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +27,18 @@ const router = createBrowserRouter([
       {
         path: "/suporte",
         element: <Support />
+      },
+      {
+        path:  "/mensagens",
+        element: <Chat />
+      },
+      {
+        path: "/calendario",
+        element: <Calendar />
+      },
+      {
+        path: "/perfil",
+        element: <Profile />
       }
     ]
   }
