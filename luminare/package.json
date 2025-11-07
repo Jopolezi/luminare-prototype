@@ -12,6 +12,7 @@
   "dependencies": {
     "@fontsource/poppins": "^5.2.7",
     "@ramonak/react-progress-bar": "^5.4.0",
+    "lucide-react": "^0.553.0",
     "react": "^19.1.1",
     "react-calendar": "^6.0.0",
     "react-dom": "^19.1.1",
